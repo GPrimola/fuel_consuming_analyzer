@@ -1,0 +1,123 @@
+<resources>
+
+    <string name="blank_space">\u0020</string>
+    <string name="blank"></string>
+    <string name="empty_list">lista vazia</string>
+    <string name="app_name">Analisador de Consumo de Combustível</string>
+    <string name="menu_settings">Configurações</string>
+    <string name="tap_to_edit">Toque para editar&#8230;</string>
+    <string name="title_activity_main">Analisador de Consumo de Gasolina</string>
+    <string name="mileage">KM</string>
+    <string name="help_mileage">Quilometragem total do veículo (valor mostrado no odômetro)</string>
+    <string name="help_stats_mileage">Quilometragem total do veículo (a partir da primeira nota de abastecimento)</string>
+    <string name="help_quantity_fuel_cash">Total de Combustível Abastecido (em Dinheiro)</string>
+    <string name="quantity_fuel_volume">Litros</string>
+    <string name="help_quantity_fuel_volume">Total de Combustível Abastecido (em Litros)</string>
+    <string name="refuel_date">Data do Abastecimento</string>
+    <string name="when">Quando</string>
+    <string name="total_mileage">Quilometragem Total:</string>
+    <string name="total_money_spent">Dinheiro Total Gasto:</string>
+    <string name="total_consumed_volume">Volume Total de Combustível:</string>
+    <string name="mean_consumption">Consumo Médio:</string>
+    <string name="fuel_mean_price">Preço Médio do Combustível:</string>
+    <string name="add_fuel_note">Adicionar Abastecimento</string>
+    <string name="add_fuel_note_successfully">Nota de combustível adicionada com sucesso! :)</string>
+    <string name="fuel_note_not_added">Nota de combustível não adicionada! :(</string>
+    <string name="export_csv">Exportar para CSV</string>
+    <string name="import_csv">Importar de CSV</string>
+    <string name="export_csv_successfully">Exportado para CSV com sucesso! :)</string>
+    <string name="import_csv_successfully">CSV Importado com sucesso! :)</string>
+    <string name="error_import_csv">Erro ao importar o CSV! :(</string>
+    <string name="exporting_csv_to">Exportando CSV para %s</string>
+    <string name="importing_csv_from">Importando CSV %s</string>
+    
+    <string name="action_addcar">Add Carro</string>
+    <string name="action_settings">Configurações</string>
+    
+    <string name="button_calculate_travel_cost">Calcular</string>
+    <string name="button_positive_set_date">Alterar Data</string>
+    
+    <string name="validation_mileage_warn">Insira um valor válido para a Quilometragem</string>
+    <string name="validation_quantity_fuel_cash_warn">Insira um valor válido para a Quantidade de Combustível (em Dinheiro)</string>
+    <string name="validation_quantity_fuel_volume_warn">Insira um valor válido para a Quantidade de Combustível (em Volume)</string>
+    <string name="validation_select_proper_fuel_type_warn">Selecione o Tipo de Combustível</string>
+    
+    <string name="title_refuel_note">Adicionar Abastecimento</string>
+    <string name="title_list_refuel_notes">Listar Abastecimentos</string>
+    <string name="title_stats">Estatísticas</string>
+    <string name="title_travel_cost">Calcular Custo de Viagem</string>
+    <string name="title_passwords">Cadastrar Passwords</string>
+    
+    <string name="label_fuel_price">R$/L</string>
+    <string name="label_refuel_cost">R$</string>
+    <string name="label_full_tank">Cheio</string>
+    <string name="label_next_refuel">R$ &#45;&#62;</string>
+    <string name="label_total_km">Σ KM</string>
+    <string name="label_total_notes">Σ Notas</string>
+    <string name="label_total_cash">Σ R$</string>
+    <string name="label_total_volume">Σ Litros</string>
+    <string name="label_consumption">KM/L</string>
+    <string name="label_lower_consumption">&#8675; KM/L</string>
+    <string name="label_higher_consumption">&#8673; KM/L</string>
+    <string name="label_mean_price">R$/L</string>
+    <string name="label_run_cost">R$/KM</string>
+    <string name="label_distance">KM</string>
+    <string name="label_travel_cost">R$ &#8644;</string>
+    <string name="label_part_travel_cost">R$ &#8594;</string>
+    <string name="label_account">Conta</string>
+    <string name="label_account_site">Site</string>
+    <string name="label_account_login">Login</string>
+    <string name="label_account_password">Pass</string>
+    <string name="label_add_account_pass">Adicionar Password</string>
+    
+    <string name="hint_fuel_price">R$ 0,00</string>
+    <string name="hint_mileage">@string/hint_distance</string>
+    <string name="hint_quantity_fuel_cash">R$ 000,00</string>
+    <string name="hint_quantity_fuel_volume">00,00 L</string>
+    <string name="hint_mean_consumption">00,00 km/l</string>
+    <string name="hint_mean_price">R$ 00,00</string>
+    <string name="hint_distance">00.000,00</string>
+    <string name="hint_date">--/--/--</string>
+    <string name="hint_travel_cost">000,00</string>
+    <string name="hint_part_travel_cost">000,00</string>
+    <string name="hint_account">e.g. Google, Yahoo, MS</string>
+    <string name="hint_account_site">http://exemplo.com</string>
+    <string name="hint_account_login">e.g. seu_email@exemplo.com</string>
+    
+    <string name="help_fuel_price">preço do combustível</string>
+    <string name="help_full_tank">Completou o tanque?</string>
+    <string name="help_next_refuel">Data estimada do próximo abastecimento</string>
+    <string name="help_mean_consumption">Consumo do carro</string>
+    <string name="help_lower_mean_consumption">Menor cosumo</string>
+    <string name="help_higher_mean_consumption">Maior consumo</string>
+    <string name="help_mean_price">Preço médio do combustível</string>
+    <string name="help_total_notes">Total de notas de abastecimento</string>
+    <string name="help_total_cash">Dinheiro total gasto em combustível</string>
+    <string name="help_run_cost">Custo para percorrer um quilômetro</string>
+    <string name="help_distance">Distância total do percurso em quilômetros</string>
+    <string name="help_travel_cost">Valor da viagem com base nas estatísticas de consumo do seu carro</string>
+    <string name="help_part_travel_cost">Valor de um trecho da viagem</string>
+    <string name="help_account">Nome da empresa na qual você possui uma conta</string>
+    <string name="help_account_site">Site ou endereço da empresa que provê a conta</string>
+    <string name="help_account_login">Sua credencial de login para acesso à conta</string>
+    <string name="help_account_password">Seu password de acesso a conta</string>
+    
+    <string name="fuel_type">GC/AL</string>
+    <string name="hint_fuel_type">Tipo de Combustível</string>
+    <string-array name="fuel_types">
+        <item>Gasolina Comum</item>
+        <item>Gasolina Aditivada</item>
+        <item>Álcool</item>
+        <item>Diesel</item>
+    </string-array>
+    
+    <string name="refuel_data">Dados do Abastecimento</string>
+    <string name="title_activity_main_m">MainMActivity</string>
+    <string name="title_section1">Add Nota de Abastecimento</string>
+    <string name="title_section2">Estatísticas</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="t_orange">#DB841D</color>
+    <color name="t_blue_2_default">#084D6E</color>
+    <color name="t_blue_2_darker">#04293B</color>
+    <color name="t_blue">#1DA0DB</color>
+    <color name="t_blue_darker">#1A8DC1</color>
+    
+    <color name="gca_green_default">#13E8B6</color>
+    <color name="gca_green_darker">#11CEA2</color>
+    <color name="gca_yellow_default">#A8A105</color>
+    <color name="gca_yellow_darker">#8E8805</color>
+    
+</resources>

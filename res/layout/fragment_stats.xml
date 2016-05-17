@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.giorgio.gas.consuming.analyzer.thumbright.MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="#FFFFFF"
+	    android:baselineAligned="false"
+	    android:orientation="vertical" >
+	
+	    <LinearLayout 
+	        android:id="@+id/mileage_field"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:baselineAligned="false"
+	        android:orientation="horizontal" >
+	        
+	        <LinearLayout 
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="11"
+	            android:gravity="center"
+	            android:background="@drawable/gca_text_view_label"
+	            android:orientation="vertical" >
+	            
+	            <TextView
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:textColor="@color/t_blue_2_default"
+			        android:textSize="30sp"
+			        android:text="@string/label_total_km" />
+	            
+	        </LinearLayout>
+	        
+	        <LinearLayout
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="20"
+	            android:layout_marginLeft="2dp"
+	            android:background="@drawable/gca_text_view_value"
+	            android:orientation="vertical">
+	            
+	            <TextView
+		            android:id="@+id/totalKmTV"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_vertical|center_horizontal"
+			        android:textSize="30sp" />
+	            
+	            <TextView
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_horizontal"
+			        android:gravity="center"
+			        android:textAllCaps="true"
+			        android:textSize="12sp"
+			        android:text="@string/help_stats_mileage" />
+	            
+	        </LinearLayout>
+	        
+	    </LinearLayout>
+	    
+	    <LinearLayout
+	        android:id="@+id/total_notes"
+	        android:layout_marginTop="2dp"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:baselineAligned="false"
+	        android:orientation="horizontal" >
+	        
+	        <LinearLayout 
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="11"
+	            android:gravity="center"
+	            android:background="@drawable/gca_text_view_label"
+	            android:orientation="vertical" >
+	            
+	            <TextView
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:textColor="@color/t_blue_2_default"
+			        android:textSize="30sp"
+			        android:text="@string/label_total_notes" />
+	            
+	        </LinearLayout>
+	        
+	        <LinearLayout
+	            android:id="@+id/total_notes_value"
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="20"
+	            android:layout_marginLeft="2dp"
+	            android:background="@drawable/gca_text_view_value"
+	            android:orientation="vertical">
+	            
+	            <TextView
+		            android:id="@+id/totalNotesTV"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_vertical|center_horizontal"
+			        android:textSize="30sp" />
+	            
+	            <TextView
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_horizontal"
+			        android:gravity="center"
+			        android:textAllCaps="true"
+			        android:textSize="12sp"
+			        android:text="@string/help_total_notes" />
+	            
+	        </LinearLayout>
+	        
+	    </LinearLayout>
+	    
+	    <LinearLayout
+	        android:id="@+id/total_cash_field"
+	        android:layout_marginTop="2dp"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:baselineAligned="false"
+	        android:orientation="horizontal" >
+	        
+	        <LinearLayout 
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="11"
+	            android:gravity="center"
+	            android:background="@drawable/gca_text_view_label"
+	            android:orientation="vertical" >
+	            
+	            <TextView
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:textColor="@color/t_blue_2_default"
+			        android:textSize="30sp"
+			        android:text="@string/label_total_cash" />
+	            
+	        </LinearLayout>
+	        
+	        <LinearLayout
+	            android:id="@+id/total_cash_field_value"
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="20"
+	            android:layout_marginLeft="2dp"
+	            android:background="@drawable/gca_text_view_value"
+	            android:orientation="vertical">
+	            
+	            <TextView
+		            android:id="@+id/totalSpentTV"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_vertical|center_horizontal"
+			        android:textSize="30sp" />
+	            
+	            <TextView
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_horizontal"
+			        android:gravity="center"
+			        android:textAllCaps="true"
+			        android:textSize="12sp"
+			        android:text="@string/help_total_cash" />
+	            
+	        </LinearLayout>
+	        
+	    </LinearLayout>
+	    
+	    <LinearLayout
+	        android:id="@+id/total_volume_field"
+	        android:layout_marginTop="2dp"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:baselineAligned="false"
+	        android:orientation="horizontal" >
+	        
+	        <LinearLayout 
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="11"
+	            android:gravity="center"
+	            android:background="@drawable/gca_text_view_label"
+	            android:orientation="vertical" >
+	            
+	            <TextView
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:textColor="@color/t_blue_2_default"
+			        android:textSize="30sp"
+			        android:text="@string/label_total_volume" />
+	            
+	        </LinearLayout>
+	        
+	        <LinearLayout
+	            android:id="@+id/total_volume_field_value"
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="20"
+	            android:layout_marginLeft="2dp"
+	            android:background="@drawable/gca_text_view_value"
+	            android:orientation="vertical">
+	            
+	            <TextView
+		            android:id="@+id/totalLitresTV"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_vertical|center_horizontal"
+			        android:textSize="30sp" />
+	            
+	            <TextView
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_horizontal"
+			        android:gravity="center"
+			        android:textAllCaps="true"
+			        android:textSize="12sp"
+			        android:text="@string/help_quantity_fuel_volume" />
+	            
+	        </LinearLayout>
+	        
+	    </LinearLayout>
+	    
+	    <LinearLayout
+	        android:id="@+id/consumption_field"
+	        android:layout_marginTop="2dp"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:baselineAligned="false"
+	        android:orientation="horizontal" >
+	        
+	        <LinearLayout 
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="11"
+	            android:gravity="center"
+	            android:background="@drawable/gca_text_view_label"
+	            android:orientation="vertical" >
+	            
+	            <TextView
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:textColor="@color/t_blue_2_default"
+			        android:textSize="30sp"
+			        android:text="@string/label_consumption" />
+	            
+	        </LinearLayout>
+	        
+	        <LinearLayout
+	            android:id="@+id/consumption_field_value"
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="20"
+	            android:layout_marginLeft="2dp"
+	            android:background="@drawable/gca_text_view_value"
+	            android:orientation="vertical">
+	            
+	            <TextView
+		            android:id="@+id/meanConsumptionTV"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_vertical|center_horizontal"
+			        android:textSize="30sp" />
+	            
+	            <TextView
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_horizontal"
+			        android:gravity="center"
+			        android:textAllCaps="true"
+			        android:textSize="12sp"
+			        android:text="@string/help_mean_consumption" />
+	            
+	        </LinearLayout>
+	        
+	    </LinearLayout>
+	    
+	    <LinearLayout
+	        android:id="@+id/lower_consumption_field"
+	        android:layout_marginTop="2dp"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:baselineAligned="false"
+	        android:orientation="horizontal" >
+	        
+	        <LinearLayout 
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="11"
+	            android:gravity="center"
+	            android:background="@drawable/gca_text_view_label"
+	            android:orientation="vertical" >
+	            
+	            <TextView
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:textColor="@color/t_blue_2_default"
+			        android:textSize="30sp"
+			        android:text="@string/label_higher_consumption" />
+	            
+	        </LinearLayout>
+	        
+	        <LinearLayout
+	            android:id="@+id/lower_consumption_field_value"
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="20"
+	            android:layout_marginLeft="2dp"
+	            android:background="@drawable/gca_text_view_value"
+	            android:orientation="vertical">
+	            
+	            <TextView
+		            android:id="@+id/lowerMeanConsumptionTV"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_vertical|center_horizontal"
+			        android:textSize="30sp" />
+	            
+	            <TextView
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_horizontal"
+			        android:gravity="center"
+			        android:textAllCaps="true"
+			        android:textSize="12sp"
+			        android:text="@string/help_lower_mean_consumption" />
+	            
+	        </LinearLayout>
+	        
+	    </LinearLayout>
+	    
+	    <LinearLayout
+	        android:id="@+id/higher_consumption_field"
+	        android:layout_marginTop="2dp"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:baselineAligned="false"
+	        android:orientation="horizontal" >
+	        
+	        <LinearLayout 
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="11"
+	            android:gravity="center"
+	            android:background="@drawable/gca_text_view_label"
+	            android:orientation="vertical" >
+	            
+	            <TextView
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:textColor="@color/t_blue_2_default"
+			        android:textSize="30sp"
+			        android:text="@string/label_lower_consumption" />
+	            
+	        </LinearLayout>
+	        
+	        <LinearLayout
+	            android:id="@+id/higher_consumption_field_value"
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="20"
+	            android:layout_marginLeft="2dp"
+	            android:background="@drawable/gca_text_view_value"
+	            android:orientation="vertical">
+	            
+	            <TextView
+		            android:id="@+id/higherMeanConsumptionTV"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_vertical|center_horizontal"
+			        android:textSize="30sp" />
+	            
+	            <TextView
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_horizontal"
+			        android:gravity="center"
+			        android:textAllCaps="true"
+			        android:textSize="12sp"
+			        android:text="@string/help_higher_mean_consumption" />
+	            
+	        </LinearLayout>
+	        
+	    </LinearLayout>
+	    
+	    <LinearLayout
+	        android:id="@+id/mean_price_field"
+	        android:layout_marginTop="2dp"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:baselineAligned="false"
+	        android:orientation="horizontal" >
+	        
+	        <LinearLayout 
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="11"
+	            android:gravity="center"
+	            android:background="@drawable/gca_text_view_label"
+	            android:orientation="vertical" >
+	            
+	            <TextView
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:textColor="@color/t_blue_2_default"
+			        android:textSize="30sp"
+			        android:text="@string/label_mean_price" />
+	            
+	        </LinearLayout>
+	        
+	        <LinearLayout
+	            android:id="@+id/fuel_mean_price_field_value"
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="20"
+	            android:layout_marginLeft="2dp"
+	            android:background="@drawable/gca_text_view_value"
+	            android:orientation="vertical">
+	            
+	            <TextView
+		            android:id="@+id/tv_value_mean_price"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_vertical|center_horizontal"
+			        android:textSize="30sp" />
+	            
+	            <TextView
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_horizontal"
+			        android:gravity="center"
+			        android:textAllCaps="true"
+			        android:textSize="12sp"
+			        android:text="@string/help_mean_price" />
+	            
+	        </LinearLayout>
+	        
+	    </LinearLayout>
+	    
+	    <LinearLayout
+	        android:id="@+id/run_cost_field"
+	        android:layout_marginTop="2dp"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:baselineAligned="false"
+	        android:orientation="horizontal" >
+	        
+	        <LinearLayout 
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="11"
+	            android:gravity="center"
+	            android:background="@drawable/gca_text_view_label"
+	            android:orientation="vertical" >
+	            
+	            <TextView
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:textColor="@color/t_blue_2_default"
+			        android:textSize="30sp"
+			        android:text="@string/label_run_cost" />
+	            
+	        </LinearLayout>
+	        
+	        <LinearLayout
+	            android:id="@+id/run_cost_field_value"
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="20"
+	            android:layout_marginLeft="2dp"
+	            android:background="@drawable/gca_text_view_value"
+	            android:orientation="vertical">
+	            
+	            <TextView
+		            android:id="@+id/tv_value_run_cost"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_vertical|center_horizontal"
+			        android:textSize="30sp" />
+	            
+	            <TextView
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_horizontal"
+			        android:gravity="center"
+			        android:textAllCaps="true"
+			        android:textSize="12sp"
+			        android:text="@string/help_run_cost" />
+	            
+	        </LinearLayout>
+	    </LinearLayout>
+	</LinearLayout>
+</ScrollView>

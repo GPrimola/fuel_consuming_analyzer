@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:baselineAligned="false"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+		android:id="@+id/distance_field"
+		android:layout_marginTop="2dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:baselineAligned="false"
+		android:orientation="horizontal" >
+    
+		<LinearLayout 
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:layout_weight="11"
+			android:gravity="center"
+			android:background="@drawable/gca_text_view_label"
+			android:orientation="vertical" >
+			    
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textColor="@color/gca_green_default"
+				android:textSize="30sp"
+				android:text="@string/label_distance" />
+		</LinearLayout>
+    
+		<LinearLayout
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="20"
+			android:layout_marginLeft="2dp"
+			android:background="@drawable/gca_text_view_value"
+			android:orientation="vertical">
+			  
+			<EditText
+				android:id="@+id/et_value_distance"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_vertical|center_horizontal"
+				android:singleLine="true"
+				android:inputType="numberDecimal"
+				android:hint="@string/hint_distance" />
+			  
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+        		android:gravity="center"
+				android:textAllCaps="true"
+				android:textSize="12sp"
+				android:text="@string/help_distance" />
+		</LinearLayout>
+	</LinearLayout>
+	
+    <LinearLayout
+		android:id="@+id/part_travel_cost_field"
+		android:layout_marginTop="2dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:baselineAligned="false"
+		android:orientation="horizontal"
+		android:onClick="showDatePickerDialog" >
+    
+		<LinearLayout 
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:layout_weight="11"
+			android:gravity="center"
+			android:background="@drawable/gca_text_view_label"
+			android:orientation="vertical" >
+			
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textColor="@color/gca_green_default"
+				android:textSize="30sp"
+				android:text="@string/label_part_travel_cost" />
+		</LinearLayout>
+    
+		<LinearLayout
+			android:id="@+id/part_travel_cost_field_value"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="20"
+			android:layout_marginLeft="2dp"
+			android:background="@drawable/gca_text_view_value"
+			android:orientation="vertical">
+			
+			<TextView
+				android:id="@+id/tv_value_part_travel_cost"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_vertical|center_horizontal"
+				android:textColor="#8D8D8D"
+				android:textSize="30sp"
+				android:hint="@string/hint_part_travel_cost" />
+			  
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+        		android:gravity="center"
+				android:textAllCaps="true"
+				android:textSize="12sp"
+				android:text="@string/help_part_travel_cost" />
+		</LinearLayout>
+	</LinearLayout>
+    
+	<LinearLayout
+		android:id="@+id/travel_cost_field"
+		android:layout_marginTop="2dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:baselineAligned="false"
+		android:orientation="horizontal"
+		android:onClick="showDatePickerDialog" >
+    
+		<LinearLayout 
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:layout_weight="11"
+			android:gravity="center"
+			android:background="@drawable/gca_text_view_label"
+			android:orientation="vertical" >
+			
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textColor="@color/gca_green_default"
+				android:textSize="30sp"
+				android:text="@string/label_travel_cost" />
+		</LinearLayout>
+    
+		<LinearLayout
+			android:id="@+id/travel_cost_field_value"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="20"
+			android:layout_marginLeft="2dp"
+			android:background="@drawable/gca_text_view_value"
+			android:orientation="vertical">
+			
+			<TextView
+				android:id="@+id/tv_value_travel_cost"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_vertical|center_horizontal"
+				android:textColor="#8D8D8D"
+				android:textSize="30sp"
+				android:hint="@string/hint_travel_cost" />
+			  
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+        		android:gravity="center"
+				android:textAllCaps="true"
+				android:textSize="12sp"
+				android:text="@string/help_travel_cost" />
+		</LinearLayout>
+	</LinearLayout>
+	
+	<Button
+	    android:id="@+id/button_calculate_travel_cost"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    android:background="@drawable/tc_button"
+	    android:layout_margin="10dp"
+	    android:textColor="#FFFFFF"
+	    android:text="@string/button_calculate_travel_cost" />
+	
+</LinearLayout>

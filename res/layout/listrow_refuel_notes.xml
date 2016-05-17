@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/field"
+	android:layout_marginBottom="2dp"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:background="#FFFFFF"
+	android:baselineAligned="false"
+	android:orientation="horizontal" >
+    
+	<LinearLayout 
+		android:layout_width="0dp"
+		android:layout_height="match_parent"
+		android:layout_weight="11"
+		android:gravity="center"
+		android:background="@drawable/gca_text_view_label"
+		android:orientation="vertical" >
+    
+		<TextView
+			android:id="@+id/label_field_value"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="@color/t_blue_2_default"
+			android:textSize="30sp" />
+		
+		<TextView
+			android:id="@+id/help_label_field_value"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+	        android:gravity="center"
+			android:textAllCaps="true"
+			android:textSize="12sp" />
+	    
+	</LinearLayout>
+    
+    <LinearLayout
+		android:layout_width="0dp"
+		android:layout_height="match_parent"
+		android:layout_weight="20"
+		android:layout_marginLeft="2dp"
+		android:background="@drawable/gca_text_view_value"
+		android:orientation="vertical">
+		
+		<TextView
+			android:id="@+id/value_field"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_vertical|center_horizontal"
+			android:textSize="30sp" />
+		    
+		<TextView
+			android:id="@+id/help_field_value"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+	        android:gravity="center"
+			android:textAllCaps="true"
+			android:textSize="12sp" />
+    
+</LinearLayout>
+        
+</LinearLayout>
