@@ -1,5 +1,5 @@
 # Fuel Consuming Analyzer
-Adroid app for fuel stats.
+Android app for fuel stats.
 
 This app helps you to track refuel information, like mileage, fuel price, refuel cost, etc.
 
