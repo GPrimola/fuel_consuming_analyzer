@@ -1,0 +1,154 @@
+[
+    {
+        "merged": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
+        "source": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/res/merged/debug/drawable/login_background.png",
+        "source": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/src/main/res/drawable/login_background.png"
+    },
+    {
+        "merged": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/res/merged/debug/drawable/tc_button_default.xml",
+        "source": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/src/main/res/drawable/tc_button_default.xml"
+    },
+    {
+        "merged": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/res/merged/debug/drawable/abc_textfield_searchview_holo_light.xml",
+        "source": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable/abc_textfield_searchview_holo_light.xml"
+    },
+    {
+        "merged": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear.xml",
+        "source": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable/abc_ic_clear.xml"
+    },
+    {
+        "merged": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/res/merged/debug/drawable/transparent_linear_layout.xml",
+        "source": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/src/main/res/drawable/transparent_linear_layout.xml"
+    },
+    {
+        "merged": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/res/merged/debug/drawable/st_button_pressed.xml",
+        "source": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/src/main/res/drawable/st_button_pressed.xml"
+    },
+    {
+        "merged": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/res/merged/debug/drawable/tc_button.xml",
+        "source": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/src/main/res/drawable/tc_button.xml"
+    },
+    {
+        "merged": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/res/merged/debug/drawable/abc_textfield_searchview_right_holo_light.xml",
+        "source": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable/abc_textfield_searchview_right_holo_light.xml"
+    },
+    {
+        "merged": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/res/merged/debug/drawable/abc_search_dropdown_light.xml",
+        "source": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable/abc_search_dropdown_light.xml"
+    },
+    {
+        "merged": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/res/merged/debug/drawable/search_layout_shape.xml",
+        "source": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/src/main/res/drawable/search_layout_shape.xml"
+    },
+    {
+        "merged": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/res/merged/debug/drawable/st_button_default.xml",
+        "source": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/src/main/res/drawable/st_button_default.xml"
+    },
+    {
+        "merged": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/res/merged/debug/drawable/rn_button_default.xml",
+        "source": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/src/main/res/drawable/rn_button_default.xml"
+    },
+    {
+        "merged": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/res/merged/debug/drawable/calendar_day.png",
+        "source": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/src/main/res/drawable/calendar_day.png"
+    },
+    {
+        "merged": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/res/merged/debug/drawable/abc_spinner_ab_holo_light.xml",
+        "source": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable/abc_spinner_ab_holo_light.xml"
+    },
+    {
+        "merged": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/res/merged/debug/drawable/tc_button_pressed.xml",
+        "source": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/src/main/res/drawable/tc_button_pressed.xml"
+    },
+    {
+        "merged": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/res/merged/debug/drawable/edit_text_focused.xml",
+        "source": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/src/main/res/drawable/edit_text_focused.xml"
+    },
+    {
+        "merged": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_ab_holo.xml",
+        "source": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable/abc_tab_indicator_ab_holo.xml"
+    },
+    {
+        "merged": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/res/merged/debug/drawable/redo.png",
+        "source": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/src/main/res/drawable/redo.png"
+    },
+    {
+        "merged": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/res/merged/debug/drawable/edit_text_default.xml",
+        "source": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/src/main/res/drawable/edit_text_default.xml"
+    },
+    {
+        "merged": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/res/merged/debug/drawable/t_edit_text.xml",
+        "source": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/src/main/res/drawable/t_edit_text.xml"
+    },
+    {
+        "merged": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/res/merged/debug/drawable/st_button.xml",
+        "source": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/src/main/res/drawable/st_button.xml"
+    },
+    {
+        "merged": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/res/merged/debug/drawable/abc_search_dropdown_dark.xml",
+        "source": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable/abc_search_dropdown_dark.xml"
+    },
+    {
+        "merged": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/res/merged/debug/drawable/abc_textfield_searchview_right_holo_dark.xml",
+        "source": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable/abc_textfield_searchview_right_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
+        "source": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/res/merged/debug/drawable/rn_button_pressed.xml",
+        "source": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/src/main/res/drawable/rn_button_pressed.xml"
+    },
+    {
+        "merged": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/res/merged/debug/drawable/gca_text_view_value.xml",
+        "source": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/src/main/res/drawable/gca_text_view_value.xml"
+    },
+    {
+        "merged": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/res/merged/debug/drawable/gca_text_view_label.xml",
+        "source": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/src/main/res/drawable/gca_text_view_label.xml"
+    },
+    {
+        "merged": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/res/merged/debug/drawable/calendar.png",
+        "source": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/src/main/res/drawable/calendar.png"
+    },
+    {
+        "merged": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/res/merged/debug/drawable/abc_spinner_ab_holo_dark.xml",
+        "source": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable/abc_spinner_ab_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear_holo_light.xml",
+        "source": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable/abc_ic_clear_holo_light.xml"
+    },
+    {
+        "merged": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/res/merged/debug/drawable/abc_textfield_searchview_holo_dark.xml",
+        "source": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable/abc_textfield_searchview_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/res/merged/debug/drawable/rn_button.xml",
+        "source": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/src/main/res/drawable/rn_button.xml"
+    },
+    {
+        "merged": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/res/merged/debug/drawable/mylocation_button_shape.xml",
+        "source": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/src/main/res/drawable/mylocation_button_shape.xml"
+    }
+]

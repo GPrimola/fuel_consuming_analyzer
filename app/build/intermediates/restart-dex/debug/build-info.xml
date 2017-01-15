@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="25"
+    density="420dpi"
+    format="8"
+    plugin-version="2.2.3"
+    timestamp="29528910979658"
+    token="5425910452390719305"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="1794" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="347" />
+    <task
+        name="verifier"
+        duration="41" />
+
+    <artifact
+        location="/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="29528910979658"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!--     <string name="blank_space">\u0020</string> -->
+<!--     <string name="hint_date">-/-/-</string> -->
+<!--     <string name="app_name">Gas Consuming Analyzer</string> -->
+<!--     <string name="menu_settings">Settings</string> -->
+<!--     <string name="tap_to_edit">Tap to edit&#8230;</string> -->
+<!--     <string name="mileage">Mileage</string> -->
+<!--     <string name="hint_mileage">00,000.00 miles</string> -->
+<!--     <string name="help_mileage">Vehicle\'s mileage</string> -->
+<!--     <string name="quantity_fuel_cash">Quantity of Fuel (in Cash)</string> -->
+<!--     <string name="quantity_fuel_volume">Quantity of Fuel (in Volume)</string> -->
+<!--     <string name="refuel_date">Refuel Date</string> -->
+<!--     <string name="when">When</string> -->
+<!--     <string name="total_mileage">Total Mileage:</string> -->
+<!--     <string name="total_money_spent">Total Money on Fuel:</string> -->
+<!--     <string name="total_consumed_volume">Total Volume of Fuel:</string> -->
+<!--     <string name="mean_consumption">Mean Consumption:</string> -->
+<!--     <string name="fuel_mean_price">Fuel Mean Price:</string> -->
+<!--     <string name="add_fuel_note">Add</string> -->
+<!--     <string name="add_fuel_note_successfully">Fuel Note Added Successfully! :)</string> -->
+<!--     <string name="fuel_note_not_added">Fuel Note Not Added! :(</string> -->
+<!--     <string name="export_csv">Export to CSV</string> -->
+<!--     <string name="export_csv_successfully">Exported Successfully to CSV! :)</string> -->
+<!--     <string name="action_addcar">Add Car</string> -->
+<!--     <string name="action_settings">Settings</string> -->
+<!--     <string name="validation_mileage_warn">Insert a valid value for Mileage!</string> -->
+<!--     <string name="validation_quantity_fuel_cash_warn">Insert a valid value for Fuel Amount (in Cash)</string> -->
+<!--     <string name="validation_quantity_fuel_volume_warn">Insert a value for Fuel Amount (in Volume)</string> -->
+<!--     <string name="validation_select_proper_fuel_type_warn">Select Proper Fuel Type</string> -->
+<!--     <string name="fuel_type">Fuel Type</string> -->
+
+<!--     <string name="label_consumption">Mi/L</string> -->
+    
+<!--     <string name="button_positive_set_date">Set Date</string> -->
+    
+<!--     <string-array name="fuel_types"> -->
+<!--         <item>Fuel Type&#8230;</item> -->
+<!--         <item>Regular Gasoline</item> -->
+<!--         <item>Premium Gasoline</item> -->
+<!--         <item>Alcohol</item> -->
+<!--         <item>Diesel</item> -->
+<!--     </string-array> -->
+
+<!--     <string name="refuel_data">Refuel Data</string> -->
+<!--     <string name="title_activity_main_m">MainMActivity</string> -->
+<!--     <string name="title_section1">Add Refuel Note</string> -->
+<!--     <string name="title_section2">Statistics</string> -->
+<!--     <string name="title_section3">Section 3</string> -->
+<!--     <string name="navigation_drawer_open">Open navigation drawer</string> -->
+<!--     <string name="navigation_drawer_close">Close navigation drawer</string> -->
+<!--     <string name="action_example">Example action</string> -->
+
+</resources>

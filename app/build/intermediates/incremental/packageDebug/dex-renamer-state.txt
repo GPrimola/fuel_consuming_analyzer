@@ -1,0 +1,7 @@
+#Sun Jan 15 12:08:56 BRST 2017
+base.0=/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_152b12f0f27d6dcfb77c09d8257ba4e89dffcd21
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_3098d9d36a28742ff10290d365bfb09ee91b2e05/classes.dex
+base.1=/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_3098d9d36a28742ff10290d365bfb09ee91b2e05
+file.0=/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_152b12f0f27d6dcfb77c09d8257ba4e89dffcd21/classes.dex

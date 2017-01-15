@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.giorgio.gas.consuming.analyzer.thumbright.MainMActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="#FFFFFF"
+	    android:baselineAligned="false"
+	    android:orientation="vertical" >
+	
+	    <LinearLayout 
+	        android:id="@+id/mileage_field"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:baselineAligned="false"
+	        android:orientation="horizontal" >
+	        
+	        <LinearLayout 
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="11"
+	            android:gravity="center"
+	            android:background="@drawable/gca_text_view_label"
+	            android:orientation="vertical" >
+	            
+	            <TextView
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_horizontal"
+			        android:textColor="@color/gca_yellow_default"
+			        android:textSize="30sp"
+			        android:text="@string/mileage" />
+	            
+	        </LinearLayout>
+	        
+	        <LinearLayout
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="20"
+	            android:layout_marginLeft="2dp"
+	            android:background="@drawable/gca_text_view_value"
+	            android:orientation="vertical">
+	            
+	            <EditText
+		            android:id="@+id/kmRoundedET"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_vertical|center_horizontal"
+			        android:singleLine="true"
+			        android:inputType="numberDecimal"
+			        android:digits="0123456789."
+			        android:hint="@string/hint_mileage" />
+	            
+	            <TextView
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_horizontal"
+			        android:gravity="center"
+			        android:textAllCaps="true"
+			        android:textSize="12sp"
+			        android:text="@string/help_mileage" />
+	            
+	        </LinearLayout>
+	        
+	    </LinearLayout>
+	    
+	    <LinearLayout 
+	        android:id="@+id/fuel_type_field"
+	        android:layout_marginTop="2dp"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:baselineAligned="false"
+	        android:orientation="horizontal" >
+	        
+	        <LinearLayout 
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="11"
+	            android:gravity="center"
+	            android:background="@drawable/gca_text_view_label"
+	            android:orientation="vertical" >
+	            
+	            <TextView
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_horizontal"
+			        android:textColor="@color/gca_yellow_default"
+			        android:textSize="30sp"
+			        android:text="@string/fuel_type" />
+	            
+	        </LinearLayout>
+	        
+	        <LinearLayout 
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="20"
+	            android:layout_marginLeft="2dp"
+	            android:background="@drawable/gca_text_view_value"
+	            android:orientation="vertical">
+	            
+	            <Spinner
+		            android:id="@+id/fuelTypeSP"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_gravity="center_horizontal"
+		            android:nextFocusDown="@+id/quantityOfGasET"
+		            android:textSize="12sp"
+		            android:spinnerMode="dropdown"/>
+	            
+	            <TextView
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_horizontal"
+			        android:gravity="center"
+			        android:textAllCaps="true"
+			        android:textSize="12sp"
+			        android:text="@string/hint_fuel_type" />
+	            
+	        </LinearLayout>
+	        
+	    </LinearLayout>
+	    
+	    <LinearLayout
+	        android:id="@+id/date_field"
+	        android:layout_marginTop="2dp"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:baselineAligned="false"
+	        android:orientation="horizontal"
+	        android:onClick="showDatePickerDialog" >
+	        
+	        <LinearLayout 
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="11"
+	            android:gravity="center"
+	            android:background="@drawable/gca_text_view_label"
+	            android:orientation="vertical" >
+	            
+	            <TextView
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_horizontal"
+			        android:textColor="@color/gca_yellow_default"
+			        android:textSize="30sp"
+			        android:text="@string/when" />
+	            
+	        </LinearLayout>
+	        
+	        <LinearLayout
+	            android:id="@+id/date_time_field_value"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="20"
+	            android:layout_marginLeft="2dp"
+	            android:background="@drawable/gca_text_view_value"
+	            android:orientation="vertical">
+	            
+	            <TextView
+		            android:id="@+id/whenTV"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_vertical|center_horizontal"
+			        android:textColor="#8D8D8D"
+			        android:textSize="30sp"
+			        android:hint="@string/hint_date" />
+	            
+	            <TextView
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_horizontal"
+			        android:gravity="center"
+			        android:textAllCaps="true"
+			        android:textSize="12sp"
+			        android:text="@string/refuel_date" />
+	            
+	        </LinearLayout>
+	        
+	    </LinearLayout>
+	    
+	    <LinearLayout
+	        android:id="@+id/fuel_price_field"
+	        android:layout_marginTop="2dp"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:baselineAligned="false"
+	        android:orientation="horizontal" >
+	        
+	        <LinearLayout 
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="11"
+	            android:gravity="center"
+	            android:background="@drawable/gca_text_view_label"
+	            android:orientation="vertical" >
+	            
+	            <TextView
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_horizontal"
+			        android:textColor="@color/gca_yellow_default"
+			        android:textSize="30sp"
+			        android:text="@string/label_fuel_price" />
+	            
+	        </LinearLayout>
+	        
+	        <LinearLayout
+	            android:id="@+id/fuel_price_field_value"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="20"
+	            android:layout_marginLeft="2dp"
+	            android:background="@drawable/gca_text_view_value"
+	            android:orientation="vertical">
+	            
+	            <EditText
+		            android:id="@+id/litresET"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_vertical|center_horizontal"
+			        android:singleLine="true"
+			        android:inputType="numberDecimal"
+			        android:digits="0123456789."
+			        android:hint="@string/hint_fuel_price" />
+	            
+	            <TextView
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_horizontal"
+			        android:gravity="center"
+			        android:textAllCaps="true"
+			        android:textSize="12sp"
+			        android:text="@string/help_fuel_price" />
+	            
+	        </LinearLayout>
+	        
+	    </LinearLayout>
+	    
+	    <LinearLayout
+	        android:id="@+id/full_tank_field"
+	        android:layout_marginTop="2dp"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:baselineAligned="false"
+	        android:orientation="horizontal" >
+	        
+	        <LinearLayout 
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="11"
+	            android:gravity="center"
+	            android:background="@drawable/gca_text_view_label"
+	            android:orientation="vertical" >
+	            
+	            <TextView
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_horizontal"
+			        android:textColor="@color/gca_yellow_default"
+			        android:textSize="30sp"
+			        android:text="@string/label_full_tank" />
+	            
+	        </LinearLayout>
+	        
+	        <LinearLayout
+	            android:id="@+id/full_tank_field_value"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="20"
+	            android:layout_marginLeft="2dp"
+	            android:background="@drawable/gca_text_view_value"
+	            android:orientation="vertical">
+	            
+	            <CheckBox
+		            android:id="@+id/fullTankCB"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_vertical|center_horizontal"
+			        android:checked="true" />
+	            
+	            <TextView
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_horizontal"
+			        android:gravity="center"
+			        android:textAllCaps="true"
+			        android:textSize="12sp"
+			        android:text="@string/help_full_tank" />
+	            
+	        </LinearLayout>
+	        
+	    </LinearLayout>
+	    
+	    <LinearLayout
+	        android:id="@+id/refuel_cost_field"
+	        android:layout_marginTop="2dp"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:baselineAligned="false"
+	        android:orientation="horizontal" >
+	        
+	        <LinearLayout 
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="11"
+	            android:gravity="center"
+	            android:background="@drawable/gca_text_view_label"
+	            android:orientation="vertical" >
+	            
+	            <TextView
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_horizontal"
+			        android:textColor="@color/gca_yellow_default"
+			        android:textSize="30sp"
+			        android:text="@string/label_refuel_cost" />
+	            
+	        </LinearLayout>
+	        
+	        <LinearLayout
+	            android:id="@+id/refuel_cost_field_value"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="20"
+	            android:layout_marginLeft="2dp"
+	            android:background="@drawable/gca_text_view_value"
+	            android:orientation="vertical">
+	            
+	            <EditText
+		            android:id="@+id/quantityOfGasET"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_vertical|center_horizontal"
+			        android:singleLine="true"
+			        android:inputType="numberDecimal"
+			        android:digits="0123456789."
+			        android:hint="@string/hint_quantity_fuel_cash" />
+	            
+	            <TextView
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_horizontal"
+			        android:gravity="center"
+			        android:textAllCaps="true"
+			        android:textSize="12sp"
+			        android:text="@string/help_quantity_fuel_cash" />
+	            
+	        </LinearLayout>
+	        
+	    </LinearLayout>
+	    
+	    <Button 
+	        android:id="@+id/addRefuelNoteBT"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/rn_button"
+	        android:layout_gravity="bottom|center_horizontal"
+	        android:layout_margin="10dp"
+	        android:textColor="#FFFFFF"
+	        android:text="@string/add_fuel_note" />
+	    
+    </LinearLayout>
+</ScrollView>

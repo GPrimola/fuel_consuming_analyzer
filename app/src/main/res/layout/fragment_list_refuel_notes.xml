@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.giorgio.gasconsuminganalyzer.MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+    
+	<LinearLayout 
+        android:id="@+id/next_refuel_field"
+        android:layout_marginBottom="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+        
+        <LinearLayout 
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="11"
+            android:gravity="center"
+            android:background="@drawable/gca_text_view_label"
+            android:orientation="vertical" >
+            
+            <ImageView 
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:src="@drawable/calendar" />
+            
+            <TextView
+                android:visibility="gone"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textColor="@color/t_blue_2_default"
+		        android:textSize="30sp"
+		        android:text="@string/label_next_refuel" />
+            
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="20"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/gca_text_view_value"
+            android:orientation="vertical">
+            
+            <TextView
+	            android:id="@+id/nextRefuelTV"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center_vertical|center_horizontal"
+		        android:textSize="30sp" />
+            
+            <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center_horizontal"
+		        android:gravity="center"
+		        android:textAllCaps="true"
+		        android:textSize="12sp"
+		        android:text="@string/help_next_refuel" />
+            
+        </LinearLayout>
+        
+    </LinearLayout>
+
+	<ListView
+	    android:id="@android:id/list"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" >
+	    
+	</ListView>
+</LinearLayout>
