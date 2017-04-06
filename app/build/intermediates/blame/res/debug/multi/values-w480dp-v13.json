@@ -11,13 +11,13 @@
                     "endOffset": 112
                 },
                 "from": {
-                    "file": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values-w480dp/values.xml",
+                    "file": "/Users/giorgiotorres/.android/build-cache/a0092075a1cf9b2369b1e5670ea586e5e3584bd7/output/res/values-w480dp/values.xml",
                     "position": {
-                        "startLine": 6,
+                        "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 280,
+                        "startOffset": 169,
                         "endColumn": 61,
-                        "endOffset": 337
+                        "endOffset": 226
                     }
                 }
             },
@@ -30,13 +30,13 @@
                     "endOffset": 184
                 },
                 "from": {
-                    "file": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values-w480dp/values.xml",
+                    "file": "/Users/giorgiotorres/.android/build-cache/a0092075a1cf9b2369b1e5670ea586e5e3584bd7/output/res/values-w480dp/values.xml",
                     "position": {
-                        "startLine": 10,
+                        "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 567,
+                        "startOffset": 345,
                         "endColumn": 71,
-                        "endOffset": 634
+                        "endOffset": 412
                     }
                 }
             },
@@ -49,13 +49,13 @@
                     "endOffset": 245
                 },
                 "from": {
-                    "file": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values-w480dp/values.xml",
+                    "file": "/Users/giorgiotorres/.android/build-cache/a0092075a1cf9b2369b1e5670ea586e5e3584bd7/output/res/values-w480dp/values.xml",
                     "position": {
-                        "startLine": 14,
+                        "startLine": 8,
                         "startColumn": 4,
-                        "startOffset": 863,
+                        "startOffset": 530,
                         "endColumn": 60,
-                        "endOffset": 919
+                        "endOffset": 586
                     }
                 }
             }

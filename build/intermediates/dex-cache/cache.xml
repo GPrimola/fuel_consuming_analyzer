@@ -2,49 +2,148 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/giorgiotorres/.android/build-cache/7771311a8ae3e4434c96bc01756e81e85d1cff82/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="dd9af93abe3348a5fd2a116ec592946ee620217a">
-        <dex dex="/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_3098d9d36a28742ff10290d365bfb09ee91b2e05/classes.dex" />
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/pre-dexed/debug/classes_f85cf734d1f74f43ca20fd87eda003cf9165c162.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/giorgiotorres/.android/build-cache/3515c5e4e466a6381ce17631085a5e54e4e86c64/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="d9868908df1f81c8ef64a39f09f65c4b1fc27ffb">
-        <dex dex="/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_152b12f0f27d6dcfb77c09d8257ba4e89dffcd21/classes.dex" />
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/pre-dexed/debug/classes_34eb9d81b70be90ca85d5654010422563445076d.jar" />
     </item>
     <item
-        is-multidex="true"
+        is-multidex="false"
+        jar="/Users/giorgiotorres/.android/build-cache/406179af6e26e749ca99d5772d1206c0cd7f6764/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/pre-dexed/debug/classes_d0b9ae01036056bfe42dee2d0fc467bb56d72cee.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/giorgiotorres/.android/build-cache/95664efb609ea03b6337a192383911b247a7a9f2/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/pre-dexed/debug/classes_aa8cc69667e6f776b47bd3c1919fae14ac3f923c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/giorgiotorres/.android/build-cache/5ba3d95ca09a4be95eab6a7eebdfc9d38c0d39ad/output/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_2492f6d744ff22dc911e04562600f6dfad3f91c6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/giorgiotorres/.android/build-cache/ce6e0732bce577f231bb6ca6beb1003cdf03fb6a/output/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_d5f46ba149958a03986efcf7265fb53b3e48ecee.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/giorgiotorres/.android/build-cache/c6b3cec6b5300d28e950ddcbe0d57c3abde7c019/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/pre-dexed/debug/classes_8c609de37839bbe8714fbb6849df10e7b09382f7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/giorgiotorres/.android/build-cache/b560b848e664f8010af4c89f19408828e7665dee/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/pre-dexed/debug/classes_049d0732164273aa72e4016dba10ee5098b62219.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/giorgiotorres/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/pre-dexed/debug/support-annotations-25.0.1_88ac6853cb3b5be98ccd218b45e88ee451cf493d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/giorgiotorres/.android/build-cache/406179af6e26e749ca99d5772d1206c0cd7f6764/output/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_1502ec81806aad8ce2f57d278120e783ca3f00c6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/giorgiotorres/.android/build-cache/5ba3d95ca09a4be95eab6a7eebdfc9d38c0d39ad/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/pre-dexed/debug/classes_017b90d07bc520b8f2fd8bb4388c7ad0b13106ff.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/libs/opencsv-2.3.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="c0ffd01065bc3fe571e1a4eb7014a03333f0663d">
-        <dex dex="/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/transforms/dex/debug/folders/1000/2/opencsv-2.3_c4d415a0367f987e4950e385857d77a1fe38f735/classes.dex" />
+        <dex dex="/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/pre-dexed/debug/opencsv-2.3_c4d415a0367f987e4950e385857d77a1fe38f735.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/giorgiotorres/.android/build-cache/c6b3cec6b5300d28e950ddcbe0d57c3abde7c019/output/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28">
-        <dex dex="/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-19.1.0_a19d921e713434c6c0c759b385a24191f544498e/classes.dex" />
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_b553240aeaa7c7fe7d07799064a9cedd51375a8a.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/giorgiotorres/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/giorgiotorres/.android/build-cache/b560b848e664f8010af4c89f19408828e7665dee/output/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
-        <dex dex="/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-v4-19.1.0_c5e8d7fe933422cbdf90818abb6a5ae385667792/classes.dex" />
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_e1866060b78678f11e53c74e0edc2a642c424837.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/giorgiotorres/.android/build-cache/5e448c91ba94bf770ea2922840e2066048a65127/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/pre-dexed/debug/classes_4569bc5de0fadda0ed9e920d8e2fdc2ef8845a8c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/giorgiotorres/.android/build-cache/ce6e0732bce577f231bb6ca6beb1003cdf03fb6a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/pre-dexed/debug/classes_e5508acd100ddcae86b1dee10138a6dac3e2ae8c.jar" />
     </item>
 
 </items>

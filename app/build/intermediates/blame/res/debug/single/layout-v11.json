@@ -1,10 +1,10 @@
 [
     {
         "merged": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/res/merged/debug/layout-v11/abc_simple_decor.xml",
-        "source": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/layout-v11/abc_simple_decor.xml"
+        "source": "/Users/giorgiotorres/.android/build-cache/28bb611dfb6beb2f981cdfeb53be3e30c454b2b2/output/res/layout-v11/abc_simple_decor.xml"
     },
     {
         "merged": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/res/merged/debug/layout-v11/abc_action_bar_decor.xml",
-        "source": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/layout-v11/abc_action_bar_decor.xml"
+        "source": "/Users/giorgiotorres/.android/build-cache/a0092075a1cf9b2369b1e5670ea586e5e3584bd7/output/res/layout-v11/abc_action_bar_decor.xml"
     }
 ]

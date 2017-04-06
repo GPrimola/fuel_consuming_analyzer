@@ -11,13 +11,13 @@
                     "endOffset": 127
                 },
                 "from": {
-                    "file": "/Users/giorgiotorres/AndroidStudioProjects/FuelConsumingAnalyzer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values-w720dp/values.xml",
+                    "file": "/Users/giorgiotorres/.android/build-cache/a0092075a1cf9b2369b1e5670ea586e5e3584bd7/output/res/values-w720dp/values.xml",
                     "position": {
-                        "startLine": 6,
+                        "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 280,
+                        "startOffset": 169,
                         "endColumn": 76,
-                        "endOffset": 352
+                        "endOffset": 241
                     }
                 }
             }
